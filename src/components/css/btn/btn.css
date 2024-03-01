@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap");
+.click-btn {
+  display: flex;
+  width: 200px;
+  height: 30px;
+  justify-content: center;
+  align-items: center;
+  margin: 0.5rem;
+  line-height: 35px;
+  border: 1px solid;
+  border-radius: 5px;
+  text-align: center;
+  font-size: 16px;
+  color: #000;
+  text-decoration: none;
+  transition: all 0.35s;
+  box-sizing: border-box;
+}
+
+.btn-style510 {
+  position: relative;
+  background-color: #e3e3e3;
+  font-size: 22px;
+  font-weight: 700;
+  border-color: #e3e3e3;
+  padding: 25px 15px;
+  color: black;
+  overflow: hidden;
+  box-shadow: 0px 0px 1px black;
+}
+.btn-style510::before, .btn-style510::after {
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform: translateX(-100px) skewX(-15deg);
+  content: "";
+}
+.btn-style510::before {
+  width: 60px;
+  background: rgba(255, 255, 255, 0.5);
+  filter: blur(30px);
+  opacity: 0.5;
+}
+.btn-style510::after {
+  width: 30px;
+  left: 30px;
+  background: rgba(255, 255, 255, 0.2);
+  filter: blur(5px);
+}
+.btn-style510:hover {
+  background-color: #ac4243;
+  border-color: #ac4243;
+}
+.btn-style510:hover::before {
+  opacity: 1;
+}
+.btn-style510:hover::before, .btn-style510:hover::after {
+  transform: translateX(300px) skewX(-15deg);
+  transition: all 0.9s ease;
+}
+
+.colorse {
+  color: #000000 !important;
+}
+
+.colorse:hover {
+  color: #ffffff !important;
+}
+
+@media screen and (max-width: 450px) {
+  .btn_sec {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}/*# sourceMappingURL=btn.css.map */

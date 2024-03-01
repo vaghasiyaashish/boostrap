@@ -1,0 +1,93 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+.bg-color {
+  background-color: rgb(245, 246, 246);
+  color: rgb(57, 58, 52);
+}
+
+.position {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  height: 100vh;
+}
+
+.bg-colors {
+  background-color: #8d949e;
+  color: white;
+}
+
+.editor-bg-color {
+  background-color: #ebedf0;
+}
+
+.thems-bg-color {
+  background-color: #f8d7da;
+  color: #58151c;
+}
+
+.warning-bg-color {
+  background-color: #fff3cd;
+  color: #664d03;
+}
+
+.a-fonts {
+  font-size: 12px;
+}
+
+.accordions {
+  background-color: rgb(245, 246, 246);
+}
+
+.actives:active {
+  background-color: #bbbbbb;
+}
+
+.Scrollbar {
+  width: 100%;
+  height: 100vh;
+  overflow-y: auto;
+}
+
+td {
+  vertical-align: top;
+  padding-left: 5px;
+}
+td th {
+  vertical-align: top;
+  padding-left: 5px;
+}
+
+@media screen and (min-width: 576px) {
+  td {
+    vertical-align: top;
+    padding: 10px 0px 10px 23px;
+  }
+  td th {
+    vertical-align: top;
+    padding: 10px 0px 10px 15px;
+  }
+}
+.accordion-item:not(:first-of-type) {
+  border: none;
+}
+
+.Link-actives:active {
+  background-color: #d3d3d3;
+}
+
+.guide {
+  background-color: #cff4fc;
+}
+.guide .guide-color {
+  color: #032830;
+  font-weight: bold;
+}
+
+.Heads {
+  background-color: #fff3cd;
+}
+.Heads .Heads-color {
+  color: #664d03;
+  font-weight: bold;
+}/*# sourceMappingURL=pages.css.map */
